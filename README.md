@@ -5,7 +5,7 @@ Altium schematic and PCB files can be found in PCB folder(https://github.com/sma
 The microcontroller coded in Visual Studio 2017 using a GCC Makefile project(https://github.com/smart-device/Smart-Intercom/tree/master/gccIntercom).
 Pictures will be uploaded to smart-device server and there is a web interface to show the images(https://github.com/smart-device/Smart-Intercom/tree/master/webIntercom).
 A webview app developed in Kotlin language in Android Studio for Android users(https://github.com/smart-device/Smart-Intercom/tree/master/ktSmartIntercom).
-Similar iOS app developed in Swift language in XCode IDE(https://github.com/smart-device/Smart-Intercom/tree/master/iSmartIntercom).
+Similar iOS app developed in Swift language in XCode IDE(https://github.com/smart-device/Smart-Intercom/tree/master/iSmartIntercom/Smart%20Intercom).
 
 By pressing the microswitch on the board, an alert will be set on the webserver and a photo will be taken and transferred to webhost via GPRS connection. The user will be informed and there is two buttons in the app to accept or reject the call.
 
