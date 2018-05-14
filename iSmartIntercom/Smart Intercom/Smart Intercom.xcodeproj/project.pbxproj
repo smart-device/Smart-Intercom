@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C366D520777D260016CA90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C366D420777D260016CA90 /* AppDelegate.swift */; };
+		30C366D720777D260016CA90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C366D620777D260016CA90 /* ViewController.swift */; };
+		30C366DA20777D260016CA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C366D820777D260016CA90 /* Main.storyboard */; };
+		30C366DC20777D260016CA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C366DB20777D260016CA90 /* Assets.xcassets */; };
+		30C366DF20777D260016CA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C366DD20777D260016CA90 /* LaunchScreen.storyboard */; };
+		30C366EA20777D260016CA90 /* Smart_IntercomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C366E920777D260016CA90 /* Smart_IntercomTests.swift */; };
+		30C366F520777D260016CA90 /* Smart_IntercomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C366F420777D260016CA90 /* Smart_IntercomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C366E620777D260016CA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C366C920777D260016CA90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C366D020777D260016CA90;
+			remoteInfo = "Smart Intercom";
+		};
+		30C366F120777D260016CA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C366C920777D260016CA90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C366D020777D260016CA90;
+			remoteInfo = "Smart Intercom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30C366D120777D260016CA90 /* Smart Intercom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Intercom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C366D420777D260016CA90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30C366D620777D260016CA90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30C366D920777D260016CA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30C366DB20777D260016CA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30C366DE20777D260016CA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30C366E020777D260016CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C366E520777D260016CA90 /* Smart IntercomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart IntercomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C366E920777D260016CA90 /* Smart_IntercomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_IntercomTests.swift; sourceTree = "<group>"; };
+		30C366EB20777D260016CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C366F020777D260016CA90 /* Smart IntercomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart IntercomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C366F420777D260016CA90 /* Smart_IntercomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_IntercomUITests.swift; sourceTree = "<group>"; };
+		30C366F620777D260016CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C366CE20777D260016CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C366E220777D260016CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C366ED20777D260016CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C366C820777D260016CA90 = {
+			isa = PBXGroup;
+			children = (
+				30C366D320777D260016CA90 /* Smart Intercom */,
+				30C366E820777D260016CA90 /* Smart IntercomTests */,
+				30C366F320777D260016CA90 /* Smart IntercomUITests */,
+				30C366D220777D260016CA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30C366D220777D260016CA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C366D120777D260016CA90 /* Smart Intercom.app */,
+				30C366E520777D260016CA90 /* Smart IntercomTests.xctest */,
+				30C366F020777D260016CA90 /* Smart IntercomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C366D320777D260016CA90 /* Smart Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				30C366D420777D260016CA90 /* AppDelegate.swift */,
+				30C366D620777D260016CA90 /* ViewController.swift */,
+				30C366D820777D260016CA90 /* Main.storyboard */,
+				30C366DB20777D260016CA90 /* Assets.xcassets */,
+				30C366DD20777D260016CA90 /* LaunchScreen.storyboard */,
+				30C366E020777D260016CA90 /* Info.plist */,
+			);
+			path = "Smart Intercom";
+			sourceTree = "<group>";
+		};
+		30C366E820777D260016CA90 /* Smart IntercomTests */ = {
+			isa = PBXGroup;
+			children = (
+				30C366E920777D260016CA90 /* Smart_IntercomTests.swift */,
+				30C366EB20777D260016CA90 /* Info.plist */,
+			);
+			path = "Smart IntercomTests";
+			sourceTree = "<group>";
+		};
+		30C366F320777D260016CA90 /* Smart IntercomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30C366F420777D260016CA90 /* Smart_IntercomUITests.swift */,
+				30C366F620777D260016CA90 /* Info.plist */,
+			);
+			path = "Smart IntercomUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C366D020777D260016CA90 /* Smart Intercom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C366F920777D260016CA90 /* Build configuration list for PBXNativeTarget "Smart Intercom" */;
+			buildPhases = (
+				30C366CD20777D260016CA90 /* Sources */,
+				30C366CE20777D260016CA90 /* Frameworks */,
+				30C366CF20777D260016CA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Intercom";
+			productName = "Smart Intercom";
+			productReference = 30C366D120777D260016CA90 /* Smart Intercom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30C366E420777D260016CA90 /* Smart IntercomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C366FC20777D260016CA90 /* Build configuration list for PBXNativeTarget "Smart IntercomTests" */;
+			buildPhases = (
+				30C366E120777D260016CA90 /* Sources */,
+				30C366E220777D260016CA90 /* Frameworks */,
+				30C366E320777D260016CA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C366E720777D260016CA90 /* PBXTargetDependency */,
+			);
+			name = "Smart IntercomTests";
+			productName = "Smart IntercomTests";
+			productReference = 30C366E520777D260016CA90 /* Smart IntercomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30C366EF20777D260016CA90 /* Smart IntercomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C366FF20777D260016CA90 /* Build configuration list for PBXNativeTarget "Smart IntercomUITests" */;
+			buildPhases = (
+				30C366EC20777D260016CA90 /* Sources */,
+				30C366ED20777D260016CA90 /* Frameworks */,
+				30C366EE20777D260016CA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C366F220777D260016CA90 /* PBXTargetDependency */,
+			);
+			name = "Smart IntercomUITests";
+			productName = "Smart IntercomUITests";
+			productReference = 30C366F020777D260016CA90 /* Smart IntercomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C366C920777D260016CA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "smart-device.ir";
+				TargetAttributes = {
+					30C366D020777D260016CA90 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					30C366E420777D260016CA90 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 30C366D020777D260016CA90;
+					};
+					30C366EF20777D260016CA90 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 30C366D020777D260016CA90;
+					};
+				};
+			};
+			buildConfigurationList = 30C366CC20777D260016CA90 /* Build configuration list for PBXProject "Smart Intercom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C366C820777D260016CA90;
+			productRefGroup = 30C366D220777D260016CA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C366D020777D260016CA90 /* Smart Intercom */,
+				30C366E420777D260016CA90 /* Smart IntercomTests */,
+				30C366EF20777D260016CA90 /* Smart IntercomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C366CF20777D260016CA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C366DF20777D260016CA90 /* LaunchScreen.storyboard in Resources */,
+				30C366DC20777D260016CA90 /* Assets.xcassets in Resources */,
+				30C366DA20777D260016CA90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C366E320777D260016CA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C366EE20777D260016CA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C366CD20777D260016CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C366D720777D260016CA90 /* ViewController.swift in Sources */,
+				30C366D520777D260016CA90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C366E120777D260016CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C366EA20777D260016CA90 /* Smart_IntercomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C366EC20777D260016CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C366F520777D260016CA90 /* Smart_IntercomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C366E720777D260016CA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C366D020777D260016CA90 /* Smart Intercom */;
+			targetProxy = 30C366E620777D260016CA90 /* PBXContainerItemProxy */;
+		};
+		30C366F220777D260016CA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C366D020777D260016CA90 /* Smart Intercom */;
+			targetProxy = 30C366F120777D260016CA90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30C366D820777D260016CA90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C366D920777D260016CA90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30C366DD20777D260016CA90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C366DE20777D260016CA90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C366F720777D260016CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30C366F820777D260016CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C366FA20777D260016CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Intercom/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-device.ir.Smart-Intercom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30C366FB20777D260016CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Intercom/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-device.ir.Smart-Intercom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30C366FD20777D260016CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart IntercomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-device.ir.Smart-IntercomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Intercom.app/Smart Intercom";
+			};
+			name = Debug;
+		};
+		30C366FE20777D260016CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart IntercomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-device.ir.Smart-IntercomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Intercom.app/Smart Intercom";
+			};
+			name = Release;
+		};
+		30C3670020777D260016CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart IntercomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-device.ir.Smart-IntercomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Intercom";
+			};
+			name = Debug;
+		};
+		30C3670120777D260016CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart IntercomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-device.ir.Smart-IntercomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Intercom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C366CC20777D260016CA90 /* Build configuration list for PBXProject "Smart Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C366F720777D260016CA90 /* Debug */,
+				30C366F820777D260016CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C366F920777D260016CA90 /* Build configuration list for PBXNativeTarget "Smart Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C366FA20777D260016CA90 /* Debug */,
+				30C366FB20777D260016CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30C366FC20777D260016CA90 /* Build configuration list for PBXNativeTarget "Smart IntercomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C366FD20777D260016CA90 /* Debug */,
+				30C366FE20777D260016CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30C366FF20777D260016CA90 /* Build configuration list for PBXNativeTarget "Smart IntercomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C3670020777D260016CA90 /* Debug */,
+				30C3670120777D260016CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C366C920777D260016CA90 /* Project object */;
+}

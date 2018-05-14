@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title>Intercom</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<style type="text/css">#snackbar {
+    visibility: hidden;
+    margin-left: -50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+img{
+    padding: 5px;
+}
+	</style>
+</head>
+<body style="background-color:#F6FCFF">
+<center><img class="img-responsive" id="cam" onclick="fcnPic()" src="./pics/0.jpg" />
+<div class="row">
+<div class="col-xs-4"><img class="img-responsive" id="imgAccept" onclick="fcnAccept()" src="./accept.png" /></div>
+
+<div class="col-xs-4"><img class="img-responsive" id="imgBell" onclick="fcnDismiss()" src="./bell.png" /></div>
+
+<div class="col-xs-4"><img class="img-responsive" id="imgReject" onclick="fcnReject()" src="./reject.png" /></div>
+</div>
+
+<div class="jumbotron text-center">
+<h3><a href="./pics">Saved Pictures</a></h3>
+</div>
+
+<div id="snackbar">Config Sent</div>
+
+<audio id="sndNotif" preload="auto" src="notif.mp3"></audio>
+<script>
+var myVar = setInterval(myTimer, 3000);
+
+function showSnackbar() {
+    navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+    if (navigator.vibrate) {
+       navigator.vibrate(100);
+    }
+    var x = document.getElementById("snackbar")
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 500);
+}
+
+function fcnAccept() {
+    var client = new XMLHttpRequest();
+    client.open("GET", "http://smart-device.ir/ic/mhsn.php?o=1");
+    client.send();
+    showSnackbar();
+}
+
+function fcnReject() {
+    var client = new XMLHttpRequest();
+    client.open("GET", "http://smart-device.ir/ic/mhsn.php?o=2");
+    client.send();
+    showSnackbar();
+}
+
+function fcnPic() {
+    var client = new XMLHttpRequest();
+    client.open("GET", "http://smart-device.ir/ic/mhsn.php?o=3");
+    client.send();
+    showSnackbar();
+}
+
+function fcnDismiss() {
+    var client = new XMLHttpRequest();
+    client.open("GET", "http://smart-device.ir/ic/mhsn.php?i=2");
+    client.send();
+    showSnackbar();
+}
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("cam").src="./pics/0.jpg?v=" + d.getTime();
+    var client = new XMLHttpRequest();
+    client.open("GET", "http://smart-device.ir/ic/key.txt?v=" + d.getTime());
+    client.onreadystatechange = function() {
+    if(client.responseText.includes("1")) {
+        document.getElementById("imgBell").src="http://smart-device.ir/ic/bell.gif";
+        document.getElementById("sndNotif").play();
+        navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+        if (navigator.vibrate) {
+	        navigator.vibrate([100,100,100,100,100]);
+        }
+    } else if(client.responseText.includes("2")){
+        document.getElementById("imgBell").src="http://smart-device.ir/ic/bell.png";
+    }
+    }
+    client.send();
+}
+</script></center>
+</body>
+</html>
