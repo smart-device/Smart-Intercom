@@ -1,4 +1,4 @@
-# Smart-Intercom
+# Smart Intercom
 Smart Intercom System is a prototype project to show how to take a picture and transfer it to website with A6C module.
 It contains an electronic board including ATMEGA48 AVR microcontroller and A6C GSM/GPRS camera module.
 Altium schematic and PCB files can be found in [PCB folder](https://github.com/smart-device/Smart-Intercom/tree/master/PCB).
