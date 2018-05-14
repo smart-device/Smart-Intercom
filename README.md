@@ -1,11 +1,11 @@
 # Smart-Intercom
 Smart Intercom System is a prototype project to show how to take a picture and transfer it to website with A6C module.
 It contains an electronic board including ATMEGA48 AVR microcontroller and A6C GSM/GPRS camera module.
-Altium schematic and PCB files can be found in PCB folder(https://github.com/smart-device/Smart-Intercom/tree/master/PCB).
-The microcontroller coded in Visual Studio 2017 using a GCC Makefile project(https://github.com/smart-device/Smart-Intercom/tree/master/gccIntercom).
-Pictures will be uploaded to smart-device server and there is a web interface to show the images(https://github.com/smart-device/Smart-Intercom/tree/master/webIntercom).
-A webview app developed in Kotlin language in Android Studio for Android users(https://github.com/smart-device/Smart-Intercom/tree/master/ktSmartIntercom).
-Similar iOS app developed in Swift language in XCode IDE(https://github.com/smart-device/Smart-Intercom/tree/master/iSmartIntercom/Smart%20Intercom).
+Altium schematic and PCB files can be found in [PCB folder](https://github.com/smart-device/Smart-Intercom/tree/master/PCB).
+The microcontroller coded in Visual Studio 2017 using a [GCC Makefile project](https://github.com/smart-device/Smart-Intercom/tree/master/gccIntercom).
+Pictures will be uploaded to smart-device server and there is a [web interface to show the images](https://github.com/smart-device/Smart-Intercom/tree/master/webIntercom).
+A [webview app developed in Kotlin language in Android Studio](https://github.com/smart-device/Smart-Intercom/tree/master/ktSmartIntercom) for Android users.
+Similar [iOS app developed in Swift language in XCode IDE](https://github.com/smart-device/Smart-Intercom/tree/master/iSmartIntercom/Smart%20Intercom).
 
 By pressing the microswitch on the board, an alert will be set on the webserver and a photo will be taken and transferred to webhost via GPRS connection. The user will be informed and there is two buttons in the app to accept or reject the call.
 
