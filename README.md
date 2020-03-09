@@ -7,6 +7,8 @@ Pictures will be uploaded to smart-device server and there is a [web interface t
 A [webview app developed in Kotlin language in Android Studio](https://github.com/smart-device/Smart-Intercom/tree/master/ktSmartIntercom) for Android users.
 Similar [iOS app developed in Swift language in XCode IDE](https://github.com/smart-device/Smart-Intercom/tree/master/iSmartIntercom/Smart%20Intercom).
 
+See it in action: https://t.me/Internet_of_Things/39 
+
 [Please donate if my work is useful for you!
 Bitcoin: 1J6XzZr5xi6t9sqjpQv4dvhyaRrzfTnuXG](https://blockchain.info/payment_request?address=1QDKUmSZEPgcTxHSdE4qu9TQ91f5J7zUnu&amount=0.00072210&message=Donate)
 
